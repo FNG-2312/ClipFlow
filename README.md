@@ -27,6 +27,7 @@ Dành cho anh em muốn tải mã nguồn về vọc vạch:
 
 **Bước 1: Tải mã nguồn về máy**
 * Dùng Git: Mở Terminal và gõ lệnh `git clone https://github.com/FNG-2312/ClipFlow.git`
+* Vào Releases để tải Source code
 
 **Bước 2: Chạy Android Client**
 1. Mở thư mục gốc của dự án bằng Android Studio.
