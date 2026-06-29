@@ -1,56 +1,56 @@
-# ClipFlow - P2P LAN Transfer System
+# ClipFlow - Hệ thống Truyền tải P2P LAN
 
-## Android App and PC Server supporting ultra-fast, 100% offline file and clipboard transfer over a local network
+## Ứng dụng Android và PC Server hỗ trợ chuyển file và khay nhớ tạm (Clipboard) siêu tốc, ngoại tuyến 100% qua mạng nội bộ
 
-This project was built to solve the problem of transferring files and text when there is no connecting cable or internet access. By leveraging low-level UDP/TCP protocols and encryption algorithms, ClipFlow ensures your data is transferred securely and quickly directly between two devices without going through any cloud servers.
+Dự án này được xây dựng nhằm giải quyết bài toán truyền tải tệp tin và văn bản khi không có cáp kết nối hoặc mất Internet. Bằng cách tận dụng giao thức UDP/TCP tầng thấp và thuật toán mã hóa, ClipFlow đảm bảo dữ liệu được luân chuyển an toàn, nhanh chóng trực tiếp giữa hai thiết bị mà không cần đi qua bất kỳ máy chủ đám mây nào.
 
-## Demo
+##  Hình ảnh hoạt động 
 <div align="center">
-  <h3> PC Server Interface</h3>
+  <h3> Giao diện PC Server</h3>
   <img src="https://github.com/user-attachments/assets/b838ec91-017b-4bac-a1f5-555b1bd39ee1" width="413" alt="PC Server Demo" />
 
   <br/><br/>
 
-  <h3> Android Client Interface</h3>
+  <h3> Giao diện Android Client</h3>
   <img src="https://github.com/user-attachments/assets/7fd07a3c-e2a8-49b9-9af9-9fa1fc327827" width="300" alt="Mobile Client Demo" />
 </div>
 
-## Installation Guide
-If you just want to download and use it right away:
-1. Go to the **Releases** section on the right side of this page.
-2. Download the `ClipFlow.apk` file and install it on your Android phone.
-3. Download the `pc_server.exe` file to your Windows PC and open it (no installation required).
-4. Connect both devices to the same Wi-Fi network (or use your phone's Hotspot for the PC), scan the QR code on the PC screen with your phone, and you're good to go.
+##  Hướng dẫn cài đặt 
+Nếu bạn chỉ muốn tải về dùng ngay:
+1. Vào mục **Releases** ở góc phải trang này.
+2. Tải file `ClipFlow.apk` và cài đặt lên điện thoại Android.
+3. Tải file `pc_server.exe` về máy tính Windows và mở lên (không cần cài đặt).
+4. Cho 2 thiết bị dùng chung mạng Wi-Fi (hoặc điện thoại phát Hotspot cho PC), dùng điện thoại quét mã QR trên màn hình PC là xong.
 
-## Build Instructions
-For developers who want to download and explore the source code:
+##  Hướng dẫn Build Code 
+Dành cho anh em muốn tải mã nguồn về vọc vạch:
 
-**Step 1: Download the source code**
-* Using Git: Open your Terminal and run the command: `git clone https://github.com/FNG-2312/ClipFlow.git`
+**Bước 1: Tải mã nguồn về máy**
+* Dùng Git: Mở Terminal và gõ lệnh `git clone https://github.com/FNG-2312/ClipFlow.git`
 
-**Step 2: Run the Android Client**
-1. Open the project's root folder with Android Studio.
-2. Wait for the Gradle sync to complete and Run it directly on a physical device or emulator (Android 10+ required).
+**Bước 2: Chạy Android Client**
+1. Mở thư mục gốc của dự án bằng Android Studio.
+2. Đợi hệ thống sync Gradle hoàn tất và chạy (Run) trực tiếp trên thiết bị hoặc máy ảo (Yêu cầu Android 10+).
 
-**Step 3: Run the PC Server**
-1. Ensure Python 3.10+ is installed on your computer.
-2. Open Terminal / CMD in the downloaded source code folder.
-3. Install the required libraries using the command:
+**Bước 3: Chạy PC Server**
+1. Đảm bảo máy tính đã cài đặt Python 3.10+.
+2. Mở Terminal / CMD tại thư mục mã nguồn vừa tải về.
+3. Cài đặt các thư viện bắt buộc bằng lệnh:
    `pip install qrcode pyperclip pystray Pillow pycryptodome`
-4. Start the server using the command:
+4. Khởi động server bằng lệnh:
    `python pc_server.py`
 
-## Contributing
-As this is a practical course project, the source code structure still has some shortcomings. I highly welcome feedback and contributions from fellow devs!
-* If you find a bug, please open an **Issue**.
-* Pull Requests that optimize the Socket flow and clean up the UI are highly prioritized.
+## Đóng góp 
+Đây là dự án thực hành môn học nên cấu trúc mã nguồn vẫn còn nhiều thiếu sót. Mình rất hoan nghênh anh em dev góp ý!
+* Nếu phát hiện lỗi, vui lòng mở **Issue**.
+* Ưu tiên các Pull Request hỗ trợ tối ưu hóa luồng Socket và làm gọn giao diện UI.
 
-## Known Issues
-* Currently only supports Android and Windows.
-* The translation feature is currently limited to OCR text extraction (Google ML Kit); the translation API is temporarily hidden.
+## Lỗi đã biết 
+* Chỉ mới hỗ trợ Android và Windows.
+* Tính năng Dịch thuật hiện tại chỉ dừng ở mức trích xuất chữ OCR (Google ML Kit), API dịch đang được tạm ẩn.
 
-## Support the Author
-If this tool helps you copy/paste faster and saves a few seconds of your life, consider buying me a coffee!
+## Ủng hộ tác giả
+Nếu tool này giúp anh em copy/paste nhanh hơn, tiết kiệm được vài giây cuộc đời, hãy mời dev một ly cà phê nhé!
 <div align="center">
   <img src="https://github.com/user-attachments/assets/09187e2e-cd9e-4858-978d-2e2004c41e82" width="250" alt="Buy me a coffee" />
 </div>
