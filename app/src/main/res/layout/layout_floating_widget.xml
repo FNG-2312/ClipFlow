@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="end|bottom"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/layoutMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_round_menu"
+        android:padding="8dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:id="@+id/btnMenuFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:padding="8dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chuyển File" android:textColor="#2C3E50" android:textStyle="bold" android:layout_marginEnd="12dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📁" android:textSize="22sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenuOCR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:padding="8dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quét Chữ" android:textColor="#2C3E50" android:textStyle="bold" android:layout_marginEnd="12dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔍" android:textSize="22sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnMenuTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:padding="8dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dịch Thuật" android:textColor="#2C3E50" android:textStyle="bold" android:layout_marginEnd="12dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🌐" android:textSize="22sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnBubble"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_round_bubble"
+        android:src="@android:drawable/ic_menu_send"
+        android:scaleType="centerInside"
+        android:padding="10dp"
+        android:elevation="8dp"
+        android:tint="#FFFFFF" />
+
+</LinearLayout>

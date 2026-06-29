@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sổ tay ClipFlow"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1AE74C3C"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚠️ ĐIỀU KIỆN BẮT BUỘC:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#E74C3C"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="1. Điện thoại và PC PHẢI KẾT NỐI CHUNG một mạng WiFi (hoặc LAN) để app hoạt động.\n\n2. Vui lòng TẮT TƯỜNG LỬA (Firewall) trên PC.\n\n3. Kiểm tra xem PC có đang cắm USB thu mạng hoặc bật VPN làm lệch dải IP không."
+                android:textSize="14sp"
+                android:textColor="#C0392B"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="🖥️ Thiết lập PC Server"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tải và chạy file pc_server.exe (nằm trong folder dist) trên máy tính tại đây:"
+            android:textSize="14sp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:background="#1A2196F3"
+            android:paddingStart="12dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/tvLink"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="https://drive.google.com/file/d/1b9c-UFG00JwoFsEUEsuHTOvjPxycUa9E/view?usp=sharing"
+                android:textColor="#2196F3"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="middle"/>
+
+            <Button
+                android:id="@+id/btnCopyLink"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Copy"
+                android:textSize="12sp"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="#FF5722"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💡 Hướng dẫn sử dụng nhanh"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="🔊 Trạng thái Thông báo:\nHãy đảm bảo biểu tượng LOA ở màn hình chính đang BẬT. Việc này giúp ứng dụng phát tín hiệu rung và âm báo ngay lập tức khi nhận được dữ liệu từ PC gửi về."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="🔧 Quản Lý PC:\nQuét mã QR trên Server để tự nhập IP và mã PIN."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="📁 Chuyển File &amp; Text:\nHoạt động hoàn toàn tự động dưới nền. Bạn có thể thoát app, làm việc khác hoặc tắt màn hình, ClipFlow vẫn sẽ kiên trì truyền tải dữ liệu cho đến khi hoàn tất."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="💬 Bong bóng:\nBôi đen chữ trên màn hình rồi chạm vào bong bóng để gửi nhanh."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="🔍 Quét Chữ:\nChụp hoặc chọn ảnh để trích xuất văn bản và tự động gửi thẳng lên Clipboard máy tính."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:enabled="true"
+            android:text="Tôi đã hiểu"/>
+    </LinearLayout>
+</ScrollView>
