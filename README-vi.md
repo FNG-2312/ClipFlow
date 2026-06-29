@@ -50,7 +50,7 @@ Dành cho anh em muốn tải mã nguồn về vọc vạch:
 * Tính năng Dịch thuật hiện tại chỉ dừng ở mức trích xuất chữ OCR (Google ML Kit), API dịch đang được tạm ẩn.
 
 ## Ủng hộ tác giả
-Nếu tool này giúp anh em copy/paste nhanh hơn, tiết kiệm được vài giây cuộc đời, hãy mời dev một ly đen đá để tỉnh táo fix bug nhé!
+Nếu tool này giúp anh em copy/paste nhanh hơn, tiết kiệm được vài giây cuộc đời, hãy mời dev một ly cà phê nhé!
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fcc8c9ff-f626-4142-91e7-57ead0d24a77" width="250" alt="Mời dev một ly đen đá" />
+  <img src="https://github.com/user-attachments/assets/09187e2e-cd9e-4858-978d-2e2004c41e82" width="250" alt="Buy me a coffee" />
 </div>
