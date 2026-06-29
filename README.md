@@ -50,7 +50,7 @@ As this is a practical course project, the source code structure still has some 
 * The translation feature is currently limited to OCR text extraction (Google ML Kit); the translation API is temporarily hidden.
 
 ## Support the Author
-If this tool helps you copy/paste faster and saves a few seconds of your life, consider buying the dev a black iced coffee to stay awake fixing bugs!
+If this tool helps you copy/paste faster and saves a few seconds of your life, consider buying me a coffee!
 <div align="center">
   <img src="https://github.com/user-attachments/assets/09187e2e-cd9e-4858-978d-2e2004c41e82" width="250" alt="Buy me a coffee" />
 </div>
